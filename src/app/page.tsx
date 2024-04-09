@@ -13,6 +13,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "@tsparticles/slim";
 import 'aos/dist/aos.css';
+//@ts-ignore
 import AOS from 'aos';
 
 export default function Home() {
