@@ -130,7 +130,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center  font-Bodo font-bold ">
       <Particles
         id="tsparticles"
+        //@ts-ignore
         particlesLoaded={particlesLoaded}
+        //@ts-ignore
         options={options}
         className="-z-10 w-screen h-screen fixed top-0 left-0"
       />
@@ -154,7 +156,7 @@ export default function Home() {
           </a>
         </div>
         <div className="lg:hidden">
-          <Sheet className="">
+          <Sheet >
             <SheetTrigger>
               <img src="menu.svg" alt="" className="size-[30px] text-white" />
             </SheetTrigger>
@@ -183,7 +185,7 @@ export default function Home() {
         <p className="text-wrap tracking-wider" data-aos="fade-up">
           Missed out on Bonk, Doge or DogeBonk? No worries! Ghost Cat has your
           back!
-          <br /> Get in on the action and let's send $Catsper skyrocketing to
+          <br /> Get in on the action and let&apos;s send $Catsper skyrocketing to
           the moon!
         </p>
         <div className="flex flex-row flex-wrap items-center gap-3  border-[#C9FFE9] border border-4 p-3 rounded-3xl">
@@ -266,7 +268,7 @@ export default function Home() {
       <section id='contact' className="flex xl:w-[1080px] mx-0 md:mx-5  py-10 flex-col gap-10 justify-start items-left px-10 bg-[#F0991B] rounded-3xl" >
         <h1 className="text-5xl">Join the <span className='text-[#CCCC1A] bg-[#F1FDC0]'>$Catsper</span> Community.</h1>
         <p>
-          Don't miss the hype train – hop aboard with Ghost Cat today <br /> and
+          Don&apos;t miss the hype train – hop aboard with Ghost Cat today <br /> and
           let the memes take you to the moon!{" "}
         </p>
         <div className="flex md:flex-row flex-col gap-10">
